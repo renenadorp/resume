@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>List Skill Groups</h1>
+<ol>
+    {% for skillgroup in skillgroup_list %}
+    <li>{{skillsgroup.name}}</li>
+    {% endfor %}
+</ol>
+{% endblock %}
